@@ -6,6 +6,7 @@ import { ConfigProvider } from "antd";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.less";
+import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import enGB from "antd/lib/locale/en_GB";

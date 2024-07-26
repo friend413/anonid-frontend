@@ -86,13 +86,15 @@ export function msgOK(msg) {
 export function msgError(msg) {
   message.error(msg);
 }
-export function alertOk(title) {
+export function alertOk(title, content = "") {
   Modal.success({
     title,
+    content
   });
 }
-export function alertError(title) {
+export function alertError(title, content = "") {
   Modal.error({
     title,
+    content
   });
 }

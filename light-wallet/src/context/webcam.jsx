@@ -6,8 +6,8 @@ const initialState = {
 	WebCamRef: false,
 	CameraActiveType: 1,
 	resolution: {
-		width: 640,
-		height: 480
+		width: 360,
+		height: 240
 	}
 };
 
